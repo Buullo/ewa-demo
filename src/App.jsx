@@ -1,3 +1,4 @@
+import React from 'react';
 const { useState, useEffect, useRef } = React;
 
 // ─── DESIGN SYSTEM ───────────────────────────────────────────
@@ -1092,7 +1093,7 @@ const NAV_ADMIN = [
 ];
 
 // ─── APP ─────────────────────────────────────────────────────
-function App() {
+export default function App() {
   const [role, setRole] = useState("employee");
   const [page, setPage] = useState("employee");
   const [toasts, setToasts] = useState([]);
@@ -1188,5 +1189,3 @@ function App() {
     </div>
   );
 }
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
