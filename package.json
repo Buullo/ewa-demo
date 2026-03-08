@@ -1,0 +1,18 @@
+{
+  "name": "ewa-demo-run",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 8085",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^1.3.2",
+    "vite": "^2.9.0"
+  }
+}

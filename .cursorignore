@@ -1,0 +1,17 @@
+# Dependencies (ไม่จำเป็นสำหรับ context)
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Git
+.git/
+
+# Logs & cache
+*.log
+.cache/
+.vite/
+
+# OS
+.DS_Store
